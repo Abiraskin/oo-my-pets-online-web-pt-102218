@@ -12,6 +12,14 @@ class Owner
     @pets = {:fishes => [], :dogs => [], :cats => []}
   end
 
+  def self.reset.all
+    OWNER.clear
+  end
+
+  def self.all
+    OWNER
+  end    
+
   def say_species
     "I am a #{species}."
   end
