@@ -18,8 +18,12 @@ class Owner
 
   def self.all
     OWNER
-  end    
+  end
 
+  def self.count
+    OWNER.size
+  end  
+    
   def say_species
     "I am a #{species}."
   end
