@@ -12,4 +12,8 @@ class Owner
     @pets = {:fishes => [], :dogs => [], :cats => []}
   end
 
+  def say_species
+    puts "I am a #{species}"
+  end  
+
 end
