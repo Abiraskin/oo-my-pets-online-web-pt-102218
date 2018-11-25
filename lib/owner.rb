@@ -7,5 +7,5 @@ class Owner
     @name = name
     @pets = {:fishes => [], :dogs => [], :cats => []}
   end
-    
+
 end
